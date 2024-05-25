@@ -15,7 +15,7 @@ Your web application, "MyApp," consists of independent components developed in G
 ● Create a new public GitHub repository to include directories for Go, Next.js, and WordPress components.
 
   1. Check the public repository for Go Application https://github.com/Sukanyasahu/DevOps_Assignment_Inc42/tree/main/GO_APPLICATION
-  2. Check the public repository for Next.js Application
+  2. Check the public repository for Next.js Application https://github.com/Sukanyasahu/DevOps_Assignment_Inc42/tree/main/my-next-app
   3. Check the public repository for WordPress 
 
 ● Initialise the repositories for each component. 
