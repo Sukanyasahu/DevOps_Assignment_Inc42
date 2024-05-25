@@ -1,0 +1,13 @@
+linters-settings:
+  golint:
+    enabled: true
+  govet:
+    enabled: true
+  gosimple:
+    enabled: true
+  staticcheck:
+    enabled: true
+  unconvert:
+    enabled: true
+  unused:
+    enabled: true
