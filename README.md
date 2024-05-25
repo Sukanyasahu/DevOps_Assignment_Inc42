@@ -53,6 +53,7 @@ Your web application, "MyApp," consists of independent components developed in G
   8. Access Your Website see your WordPress site homepage and Log in with the admin credentials you created during installation.
 
 * Continuous Integration:
+  
 
 ● Implement CI workflows for Go, Next.js (TypeScript), and PHP (WordPress)
 
@@ -64,13 +65,20 @@ Your web application, "MyApp," consists of independent components developed in G
  6. Start writing Pipeline script using Pipeline Generator
  7. Check Respective folder jenkins file
 
+
 ● Configure pipelines to trigger on pushes to the respective branches (e.g., main, feature branches).
 
   1.To have jobs triggered by GitHub events (such as pushes), you need to configure a webhook in your GitHub repository.
+  
   2.Go to your GitHub repository, Click on "Settings" in the repository menu.
+  
   3.Click on "Webhooks" and "Add webhook" button.
+  
   4.Enter your Jenkins webhook URL, typically http://your-jenkins-url/github-webhook/.
+  
   5.Choose just the push event to trigger builds on push events.
+
+
 
 ● Linting and unit testing for each technology and Ensure that the CI pipelines fail if coding standards or tests are not
 met.
