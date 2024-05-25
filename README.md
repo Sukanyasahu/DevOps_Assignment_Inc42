@@ -66,19 +66,19 @@ Your web application, "MyApp," consists of independent components developed in G
 
 ● Configure pipelines to trigger on pushes to the respective branches (e.g., main, feature branches).
 
- 1.To have jobs triggered by GitHub events (such as pushes), you need to configure a webhook in your GitHub repository.
- 2.Go to your GitHub repository, Click on "Settings" in the repository menu.
- 3.Click on "Webhooks" and "Add webhook" button.
- 4.Enter your Jenkins webhook URL, typically http://your-jenkins-url/github-webhook/.
- 5.Choose just the push event to trigger builds on push events.
+  1.To have jobs triggered by GitHub events (such as pushes), you need to configure a webhook in your GitHub repository.
+  2.Go to your GitHub repository, Click on "Settings" in the repository menu.
+  3.Click on "Webhooks" and "Add webhook" button.
+  4.Enter your Jenkins webhook URL, typically http://your-jenkins-url/github-webhook/.
+  5.Choose just the push event to trigger builds on push events.
 
 ● Linting and unit testing for each technology and Ensure that the CI pipelines fail if coding standards or tests are not
 met.
 
 #GO_APPLICATION
 
- 1. Install go get -u github.com/golangci/golangci-lint/cmd/golangci-lint
- 2. golangci-lint detects issues or if any tests fail, these sh 'golangci-lint run ./...' and sh 'go test ./... -v' will exit with a non-zero status, causing Jenkins to mark the build as failed.
+  1. Install go get -u github.com/golangci/golangci-lint/cmd/golangci-lint
+  2. golangci-lint detects issues or if any tests fail, these sh 'golangci-lint run ./...' and sh 'go test ./... -v' will exit with a non-zero status, causing Jenkins to mark the build as failed.
 
 #Next.js_Application
 
